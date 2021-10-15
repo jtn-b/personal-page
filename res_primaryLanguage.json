@@ -1,0 +1,116 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Jatin Bhatnagar.I currently work full time as a Technology Analyst at Deutsche Bank after completing my BE in CS from from BITS Pilani. My fascination towards computers made this line of work a natural choice. I enjoy all things programming - be it a large collaborative project, a small weekend project or a hard algorithm problem on leetcode. I am particulary interested in backend developement, system architectures and distributed systems.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "BreakTime",
+        "startDate": "2020",
+        "description": "BreakTime is a subscription based notification-alert service which prompts users to take small breaks from continuous sitting and screentime. Users can select their interests from a list of categories to get custom notifications on the same. Technologies used - Spring Boot , MySQL, Hibernate ORM, React, Google Cloud for deployement.",
+        "images": [
+          "images/portfolio/breaktime/bt-notif.jpeg",
+          "images/portfolio/breaktime/bt-landing.jpeg"
+        ],
+        "url": "https://github.com/jtn-b/breaktime-backend",
+        "technologies": [
+          {
+            "class": "devicon-java-plain colored",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-spring-plain colored",
+            "name": "Spring Boot"
+          },
+          {
+            "class": "devicon-mysql-plain colored",
+            "name": "MySQL"
+          },
+          {
+            "class": "devicon-react-plain colored",
+            "name": "React"
+          }
+
+        ]
+      },
+      {
+        "title": "Sudoku-Solver",
+        "startDate": "2020",
+        "description": "Sudoku-Solver is a GUI based 3x3 Sudoku game using Python’s Pygame module, which implements solving functionality using a backtracking based algorithm. New puzzles are fetched from the internet using webscraping.",
+        "images": [
+          "images/portfolio/sudoku-solver/p1.png",
+          "images/portfolio/sudoku-solver/p2.png"
+        ],
+        "url": "https://github.com/jtn-b/sudoku-solver",
+        "technologies": [
+          {
+            "class": "devicon-python-plain colored",
+            "name": "Python"
+          },
+          {
+            "class": "fas fa-solid fa-abacus",
+            "name": "Algorithms"
+          }
+        ]
+      },
+      {
+        "title": "Mind-ID",
+        "startDate": "2020",
+        "description": "As the risks and concerns for cyber-security are ever-increasing and have become mainstream,conventional methods for authentication like alphanumeric passwords may soon susceptible to higher security threats. Hence, technology is moving towards biometric based methods which are hard to crack,replicate and reproduce. In this project , we attempt to develop a biometric (Electroencephalogram (EEG) signal) based user authentication system that can potentially be used by clients as a log-in interface for their users. Technologies Used - Python's mne (package to process EEG signal data), scikit-learn and PyQt5 for GUI.",
+        "images": [
+          "images/portfolio/mind-id/p1.png",
+          "images/portfolio/mind-id/p2.png"
+        ],
+        "url": "https://github.com/jtn-b/mind-id",
+        "technologies": [
+          {
+            "class": "devicon-python-plain colored",
+            "name": "Python"
+          },
+          {
+            "class": "fas fa-solid fa-brain",
+            "name": "Machine Learning"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Deutsche Bank AG",
+        "title": "Technology Analyst",
+        "years": "07.2021 - present",
+        "mainTech": [
+          
+        ],
+        "technologies": [
+          "Java","Spring Boot","Microservices","Docker","Kubernetes","Jenkins"
+        ]
+      },
+      {
+        "company": "C-DAC",
+        "title": "Intern",
+        "years": "08.2020 - 12.2020",
+        "mainTech": [
+        ],
+        "technologies": [
+          "Node.js","Express","REST APIs","Flask"
+        ]
+      },
+      {
+        "company": "UTLC (UltraTech Cement)",
+        "title": "Intern",
+        "years": "05.2019 - 6.2019",
+        "mainTech": [
+        ],
+        "technologies": [
+          "Java","Android Development","Google FireBase"
+        ]
+      }
+    ]
+  }
