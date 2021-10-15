@@ -19,6 +19,7 @@ class Header extends Component {
   setTheme() {
     var dataThemeAttribute = "data-theme";
     var body = document.body;
+    console.log(document.body)
     var newTheme =
       body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
     body.setAttribute(dataThemeAttribute, newTheme);
@@ -27,6 +28,7 @@ class Header extends Component {
   render() {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
+      var designation = this.props.sharedData.designation
       this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
 
@@ -44,6 +46,10 @@ class Header extends Component {
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
               </h1>
+              <h2 className="mb-0">
+                <Typical steps={[designation]} wrapper="p" />
+              </h2>
+              
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
